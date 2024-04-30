@@ -1,0 +1,79 @@
+.bckgr{
+    background-image: url(imgtacos1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 560px;
+    position: relative;
+}
+.underline li:hover{
+    text-decoration: underline;
+    color: #FFC107;
+}
+.underline{
+    margin-left: 30%;
+    font-size: 16px;
+}
+.fonts{
+    font-size: 50px;
+    letter-spacing: normal;
+}
+.centt{
+    font-size: 20px;
+}
+.tacos{
+    font-size: 200px;
+    letter-spacing: normal;
+}
+.font{
+    font-size: 50px;
+    letter-spacing: normal;
+}
+.larg{
+    width: 50px;
+}
+.backr{
+    background-image: url(img3.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 500px;
+}
+.para{
+    font-size: 30px;
+}
+.img{
+    background-image: url(img5.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 400px;
+}
+@media screen and (max-width:479px) {
+    .styl{
+        font-size: 15px;
+    }
+    .imge{
+        width: 10px;
+    }
+    .tacos {
+        font-size: 50px;
+    }
+    .the{
+        font-size: 20px;
+    }
+    .fonts{
+        font-size: 30px;
+    }
+    .auth{
+        font-size: 27px;
+    }
+    .insta{
+        transform: translateX(-6rem);
+    }
+    .backr{
+        background-image: url(img3.jpg);
+        background-size: cover;
+        object-fit: cover;
+        height: 50%;
+    }
+    
+}
